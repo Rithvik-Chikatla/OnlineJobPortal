@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ### 1. **Signup a User**
 
 **Endpoint:** `POST /signup/`  
-**Description:** Register a new user either.
+**Description:** Register a new user either as an employer or job seeker.
 
 **Request Body:**
 
@@ -191,7 +191,7 @@ pip install -r requirements.txt
 ### 4. **Get the Job(s)**
 
 **Endpoint:** `GET /jobs?params`  
-**Description:** Post a job if your role is Employer.
+**Description:** Get the job(s) by the required parameters.
 
 
 **Response:**
@@ -215,7 +215,7 @@ pip install -r requirements.txt
 
 ### 5. **Delete a Job**
 
-**Endpoint:** `GET /jobs/job_id`  
+**Endpoint:** `DELETE /jobs/job_id`  
 **Description:** Delete a job by its id.
 
 
@@ -231,7 +231,7 @@ pip install -r requirements.txt
 ### 6. **Post an application for the job**
 
 **Endpoint:** `POST /applications`  
-**Description:** Post a job if your role is Employer.
+**Description:** Post an application for the job.
 
 **Request Body:**
 
