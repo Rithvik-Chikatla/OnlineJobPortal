@@ -16,7 +16,7 @@ Make sure you have the following installed on your system:
 Start by cloning the backend GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/.git
+git clone https://github.com/Rithvik-Chikatla/OnlineJobPortal.git
 cd backend
 ```
 
@@ -308,7 +308,7 @@ Make sure you have the following installed on your system:
 Start by cloning the frontend GitHub repository to your local machine:
 
 ```bash
-git clone .git
+git clone https://github.com/Rithvik-Chikatla/OnlineJobPortal.git
 cd frontend
 ```
 
