@@ -292,13 +292,14 @@ pip install -r requirements.txt
    ]
   ```
   ## Screenshots of the Testing in Postman
-  ![login_test](images/Screenshot (160).png)
-  ![login_err_test](images/Screenshot (171).png)
-  ![job_post_test](images/Screenshot (153).png)
-  ![appn_post_test](images/Screenshot (176).png)
-  ![get_jobs_test](images/Screenshot (174).png)
-  ![appn_get_test](images/Screenshot (175).png)
-  ![delete_test](images/Screenshot (178).png)
+  
+  ![login_test](images/Screenshot(160).png)
+  ![login_err_test](images/Screenshot(171).png)
+  ![job_post_test](images/Screenshot(153).png)
+  ![appn_post_test](images/Screenshot(176).png)
+  ![get_jobs_test](images/Screenshot(174).png)
+  ![appn_get_test](images/Screenshot(175).png)
+  ![delete_test](images/Screenshot(178).png)
 
 
 # Online Job Portal - Frontend
