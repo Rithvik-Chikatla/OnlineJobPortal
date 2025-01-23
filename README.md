@@ -379,3 +379,49 @@ Now, Job Portal frontend is set up and ready to run!
 ![Apply for Jobs](images/apply_jobs.png)
 ![If applied for Job again](images/already_applied.png)
 ![Delete Job](images/delete_job.png)
+
+
+---
+
+## Learnings
+Building this project helped me grow both technically and personally. Here are some key takeaways:
+
+1. **FastAPI Framework**:
+   - Learned how to create RESTful APIs using FastAPI and handle user authentication.
+   - Gained experience in setting up database models and relationships with SQLAlchemy.
+
+2. **Streamlit for Frontend**:
+   - Developed an interactive and user-friendly interface with Streamlit.
+   - Integrated the frontend with the backend via API calls.
+
+3. **Database Management**:
+   - Implemented a relational database schema using MySql.
+   - Understood how to manage many-to-many relationships (e.g., users and skills).
+
+4. **Docker**:
+   - Learned how to containerize applications using Docker and orchestrate services with Docker Compose.
+
+---
+
+## Challenges Faced
+Building this project came with several challenges that pushed me to learn and adapt:
+
+1. **API Integration Issues**:
+   - Initially, I faced difficulties integrating the frontend and backend due to incorrect API requests.
+   - Solution: Used few tools to debug API calls and refined request formats in the frontend.
+
+2. **Database Schema Changes**:
+   - After introducing skills in the signup process, the database schema needed updates.
+   - Solution: Updated the data models and schema to ensured the data remained consistent.
+    
+3. **User Session Management**:
+   - Managing user sessions in Streamlit required additional care to maintain states across pages.
+   - Solution: Leveraged `st.session_state` to store user information securely.
+
+4. **Error Handling**:
+   - Handling errors gracefully in the frontend, especially during API calls, was a recurring issue.
+   - Solution: Added detailed error messages and logging for better debugging.
+
+Despite these challenges, each obstacle was a valuable learning experience that enhanced the quality of the project.
+
+---
